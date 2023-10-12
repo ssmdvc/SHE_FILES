@@ -2,65 +2,321 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mediaquaries.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
   </head>
   <body>
-    <nav id ="desktop-nav">
-        <div class ="logo">Shekinah Marie Cayco</div>
-        <div>
-            <ul class="nav-links">
-                <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                <li><a href="#contact" onclick="toggleMenu()">Contacts</a></li>
-            </ul>
-        </div>
-        </nav>
-      <nav>
-        <nav id ="hamburger-nav">
-        <div class="logo" Shekinah Marie</div>
-        <div class="hamburger-menu">
-            <div class="hamburger-icon" onclick="toggleMenu()"></div>
-          <span></span>
-          <span></span>
-          <span></span>
+    <video autoplay loop muted plays-inline class="back-video">
+      <source src="assets/video.mp4" type="video/mp4" />
+    </video>
+    <header>
+      <img src="./assets/logo.png" class="logo">
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </header>
+    <section id="profile">
+      <div class="container">
+      <h1><span>Hello, I am</span></h1>
+      <span class="cen"><u>Shekinah</u></span>
+        <a href="./#about">Get Started</a>
+    </section>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Skills</h3><br>
+              <p>Technical troubleshooting<br> Desktop Support
+              <br> Security Monitoring</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <br>
+              <p>Bachelor of Science in Information Technology <br />
+                </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+             <h1><b>Hello!</b></h1><br> I'm an individual with a passion for exploration and creativity.
+              I thrive on embracing new challenges and learning from diverse experiences. 
+             <br>My curiosity extends to various fields, from technology to the arts, 
+             and I find joy in connecting with people who share similar interests.
+              <br> As a lifelong learner, I believe in the power of continuous growth
+               and am dedicated to self-improvement. <br> Whether engaging in thought-provoking conversations or pursuing personal projects, I aim to make a positive impact on the world around me.
+               <br> In my journey, I've come to appreciate the beauty of diversity and the strength that comes from embracing it. 
+               <br>Overall, I see life as an exciting adventure filled with opportunities for discovery and connection.
+            </p>
           </div>
         </div>
-      </nav>
-      <section id="profile">
-      <div class="section__pic-container">
-        <img src="/assets/profile.jpg" alt="Profile Picture" style="float:left;width:300px;height:300px; margin-right: 616px;" />
       </div>
-      <div class="section__text">
-        <p class="section__text__p1">Hello I am</p>
-        <h1 class="title">Shekinah Marie</h1>
-        <div class="btn-container">
-          <button
-            class="btn btn-color-2"
-            onclick="window.open('/assets/CV.pdf')"
-          >
-            Download CV
-          </button>
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
-            Contact Info
-          </button>
+        <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <br>
+      <br>
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Software Engineer</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Web Developement</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Student Organization</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Student Chairperson</h3>
+                  <p>Social Science Organization</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Technical Member</h3>
+                  <p>BOLTUP Org</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Social Media Management Member</h3>
+                  <p>TUP ComPawnion</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Member</h3>
+                  <p>TUP Sulong</p>
+                </div>
+              </article>
+            </div>
+          </div>
         </div>
-        <div id="socials-container">
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <br>
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+     <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
           <img
-            src="./assets/linkedin-icon.png"
-            alt="My Linkedin Profile"
-            class="icon"
-            onclick="location.href='https://linkedin.com/'"
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
           />
+          <p><a href="mailto:shekinahcayco@gmail.com">shekinahcayco@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
           <img
-            src="./assets/github-icon.png" alt ="Github Icon"
-            alt="My Github Profile"
-            class="icon"
-            onclick="location.href='https://github.com/ssmdvc'"
+            src="./assets/facebook.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
           />
+          <p><a href="https://www.facebook.com/smdvc.16">Shekainah Cayco</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <br>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <br>
+      <br>
+      <br>
+      <p>Copyright &#169; 2023 Shekinah Marie Cayco. <br> All Rights Reserved.</p>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
